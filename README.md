@@ -51,12 +51,13 @@ Pozwala wykorzystać mocne strony różnych algorytmów jednocześnie.
 ## 📁 Struktura repozytorium
 
 ```
-├── data/                     # Dane treningowe i testowe
-├── notebooks/                # Notatniki Jupyter z eksperymentami
-├── experiments/              # Skrypty do trenowania modeli
-├── models/                   # Zapisane modele
-├── requirements.txt          # Wymagane biblioteki
-└── README.md                 # Dokumentacja projektu
+├── datasets/                                # Zbiory danych używane w przykładach
+├── 01_voting_classife.ipynb                  # Notebook: klasyfikacja głosowania
+├── 02_baggin_and_pasting_clasification.ipynb  # Notebook: bagging i pasting (klasyfikacja)
+├── 02_bagging_and_pasting_regression.ipynb   # Notebook: bagging i pasting (regresja)
+├── ensembles.ipynb                           # Notebook: ogólne ensemble / porównania
+├── pyproject.toml                            # Konfiguracja projektu / zależności
+└── README.md                                 # Dokumentacja projektu
 ```
 
 ---
